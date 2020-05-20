@@ -1,8 +1,8 @@
-import { intArg, queryType, stringArg } from '@nexus/schema';
+import { queryType } from '@nexus/schema';
 
 export const Query = queryType({
   definition(t) {
-    t.crud.user()
-    t.crud.users()
-  }
+    t.crud.user();
+    t.crud.users();
+  },
 });

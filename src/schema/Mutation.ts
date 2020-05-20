@@ -5,5 +5,5 @@ export const Mutation = mutationType({
     t.crud.createOneUser();
     t.crud.updateOneUser();
     t.crud.deleteOneUser();
-  }
+  },
 });
