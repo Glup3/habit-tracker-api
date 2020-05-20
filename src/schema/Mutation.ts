@@ -5,5 +5,13 @@ export const Mutation = mutationType({
     t.crud.createOneUser();
     t.crud.updateOneUser();
     t.crud.deleteOneUser();
+
+    t.crud.createOneHabit();
+    t.crud.updateOneHabit();
+    t.crud.deleteOneHabit();
+
+    t.crud.createOneEntry();
+    t.crud.updateOneEntry();
+    t.crud.deleteOneEntry();
   },
 });
