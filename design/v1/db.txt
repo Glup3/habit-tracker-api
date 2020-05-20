@@ -1,6 +1,7 @@
 Table users {
   id int [pk]
-  email varchar [unique]
+  email varchar [not null, unique]
+  password varchar [not null]
   username varchar
   firstname varchar
   lastname varchar
